@@ -48,3 +48,5 @@ curl 'https://member.usfencing.org/clubs?page=47' >> clubs.txt
 curl 'https://member.usfencing.org/clubs?page=48' >> clubs.txt
 
 python pullClubInfo.py
+
+rm clubs.txt
